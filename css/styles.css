@@ -17,7 +17,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Montserrat" "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
@@ -42,4 +42,43 @@ img {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+}
+
+.site-header {
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.site-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  line-height: normal;
+  font-weight: bold;
+  color:rgba(110, 114, 142, 1);
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-text {
+  margin-right: 24px;
+  margin-left: 24px;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 700;
+  color: rgba(110, 114, 142, 1);
+}
+
+.button {
+  display: inline-block;
+  width: 56px;
+  height: 32px;
+  border-radius: 16px;
+  border: none;
+  background-color: rgba(105, 110, 221, 1);
 }
